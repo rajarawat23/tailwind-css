@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h3>Q3.Create a User login page interface that closely resembles the provided image using Tailwind CSS. The goal is
+to ensure that your implementation captures every visual detail and layout aspect depicted in the image while
+maintaining a full mobile responsiveness.</h3><br>
+<div class=" xl:w-full  grid grid-cols-2 border-gray-300 ">
+    <div class="flex flex-col items-center justify-center">
+    <h2 class="text-2xl">login</h2>
+    <h2>Enter your credential to access your account</h2>
+    <div class=" flex border m-3 w-1/2 items-center justify-center">
+        <img class=" flex my-6  h-5 " src="https://brandlogos.net/wp-content/uploads/2025/05/google_icon_2025-logo_brandlogos.net_qm5ka-300x307.png" alt="">
+        <span class=" p-4 px-2 text-2xl mb-1 ">Login with Google</span>
+    </div>
+    <p class="flex items-center w-1/2 my-4 mx-auto">
+     <span class="flex-grow border-t"></span>
+     <span class="px-4 text-2xl">or</span>
+     <span class="flex-grow border-t "></span>
+    </p>
+    <div class="flex flex-col items-center my-2 ">
+    <form action="">
+        <label for="" class="px-2">Email Adress</label>
+        <input class= "border p-2 m-2  w-full rounded" type="text" name="" id="" placeholder="email@gmail.com">
+        <a href="" class="block text-right text-blue-800 ">Forgot Password?</a>
+        <label for="" class="m-2">Password</label>
+        <input class="w-full border m-2 p-2 rounded" name="" id="" placeholder="Password">
+        <button class=" bg-blue-500 border-white text-white w-full my-4 p-2 ml-2 my-2 rounded">Login</button>
+    </form> 
+<div class="flex justify-center"> 
+     <span class="text-gray-500">Don't have an account?</sp>
+     <span class="text-black">Register here</span>
+</div>
+</div>
+</div class>
+    <img class="hidden sm:block ml-8 h-1/1 w-1/2 mb-12 " src="https://thumbs.dreamstime.com/b/young-happy-woman-good-idea-sign-white-shirt-isolated-white-background-30197657.jpg" alt="">
+</div><br>
+<h3>Q2.Create a responsive image gallery using Tailwind CSS. The gallery should display a grid of images that adjust
+their size and layout based on the screen size.</h3><br>
+<div class="p-4 xl:p-19 h-full w-1/1 gap-5 grid sm:grid-cols-3  bg-gray-300  p-4">
+    <img src="https://thumbs.dreamstime.com/b/young-happy-woman-good-idea-sign-white-shirt-isolated-white-background-30197657.jpg" alt="">
+    <img src="https://thumbs.dreamstime.com/b/young-happy-woman-good-idea-sign-white-shirt-isolated-white-background-30197657.jpg" alt="">
+    <img src="https://thumbs.dreamstime.com/b/young-happy-woman-good-idea-sign-white-shirt-isolated-white-background-30197657.jpg" alt="">    
+</div>
+<h3>Q.3 Create a non-responsive dashboard using Tailwind CSS, where the dashboard should include a sidebar
+navigation menu and a main contain area. (Making it responsive is optional).
+Feel free to use any icons from any place, Your goal is to design a visually appealing and user-friendly
+dashboard interface that is not responsive.</h3><br>
+<div class="flex bg-gray-200  ">
+        <div class="w-50 bg-black text-gray-400 font-medium space-y-25 p-2 h-full ">
+<div>
+        <h1 class="font-mono text-2xl p-2  flex justify-center ">Dashboard</h1>
+    <ul class="flex items-center gap-1 bg-gray-900 p-2 mr-2 mt-1 mb-1">
+        <img class="flex items-center h-5 bg-black ml-1" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gsW69pW8wIFkuDUG_MAUl_MHbCXyECmzgg&s" alt="">
+        <li class=" flex  ml-2 ">Dashboard</li>
+    </ul>
+    <ul>
+        <li class="bg-black flex items-center gap-3 p-2">
+            <img class="h-6" src="https://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/512/users-icon.png" alt="">
+            <span>Team</span>
+        </li>
+    </ul>
+    <ul>
+        <li class="flex items-center gap-1 p-1  ">
+            <img class=" bg-black h-10 " src="https://i.pinimg.com/474x/25/af/53/25af533a6d42399e3b8449e72a079357.jpg" alt="">
+            <span>Project</span>
+        </li>
+    </ul>
+    <ul>
+        <li class="flex items-center gap-1 p-2">
+            <img class="h-6 ml-1" src="https://cdn-icons-png.flaticon.com/512/8818/8818517.png" alt="">
+            <span class="mx-2">Calaendar</span>        
+        </li>
+    </ul>
+    <ul>
+        <li class="flex items-center gap-2 p-2">
+           <img class="h-6 ml-1" src="https://www.freeiconspng.com/thumbs/document-icon/document-icon-28.png" alt=""> 
+           <span class="mx-1">Document</span>
+        </li>
+    </ul>
+    <ul>
+        <li class="flex items-center gap-3 ml-1 p-3">
+            <img class="h-5" src="https://www.freeiconspng.com/thumbs/report-icon/report-icon-png--6.png" alt="">
+            <span>Reports</span>
+        </li>
+    </ul>
+</div>
+<div class="m-1 p-2">
+    <h1 class="mb-4 ml-2">Your Teams</h1>
+    <ul>
+        <li class="flex items-center gap-3 p-2">
+            <img class="h-6" src="https://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/512/users-icon.png" alt="">
+            <span>PW Skills</span>
+        </li>
+    </ul>
+    <ul>
+        <li class="flex items-center ml-1 gap-3 p-2">
+            <img class="h-5 " src="https://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/512/users-icon.png" alt="">
+            <span>PW labs</span>
+        </li>
+    </ul>
+    <ul>
+        <li class=" flex items-center gap-3 p-2 ml-1">
+            <img class="h-5" src="https://icons.iconarchive.com/icons/custom-icon-design/silky-line-user/512/users-icon.png" alt="">
+            <span>PW -IOI</span>
+        </li>    
+</div>
+</div>
+<div class="border-gray-300 w-full h-full p-2 m-2 bg-white flex  ">
+<div>
+    <ul class="flex items-center gap-2">
+        <img class="h-5 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR81iX4Mo49Z3oCPSx-GtgiMAkdDop2uVmVvw&s" alt="">
+        <p>Profile</p>
+    </ul>
+</div>
+   <div class="flex items-center justify-end w-full">
+    <ul class="flex items-center justify-end gap-2 ml-4">
+    <img class="h-5 flex justify-center" src="https://www.svgrepo.com/show/7109/search.svg" alt="">
+    <img class="h-6" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR695RWBK2XaKwxHdFpI5RSbLgiLfqY5kjKEQ&s" alt="">
+    </ul>
+   </div>
+</div>
+</div>
+</body>
+</html>
